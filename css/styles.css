@@ -89,10 +89,21 @@ h3[class$="__heading"]::after{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.notavif.notwebp .header{
+    background-image: url(../images/hero.jpg);
+}
+
+.webp .header{
+    background-image: url(../images/hero.webp);
+}
+
+.avif .header{
+    background-image: url(../images/hero.avif);
 }
 
 .header::after{
@@ -307,10 +318,21 @@ h3[class$="__heading"]::after{
     align-items: center;
     justify-content: center;
     padding: 10rem 0;
-    background-image: url(../images/about.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.notavif.notwebp .about{
+    background-image: url(../images/about.jpg);
+}
+
+.webp .about{
+    background-image: url(../images/about.webp);
+}
+
+.avif .about{
+    background-image: url(../images/about.avif);
 }
 
 .about__content{
@@ -496,6 +518,18 @@ h3[class$="__heading"]::after{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.notavif.notwebp .contact__hero{
+    background-image: url(../images/contact_hero.jpg);
+}
+
+.webp .contact__hero{
+    background-image: url(../images/contact_hero.webp);
+}
+
+.avif .contact__hero{
+    background-image: url(../images/contact_hero.avif);
 }
 
 .contact__form{

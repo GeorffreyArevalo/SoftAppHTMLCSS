@@ -103,7 +103,12 @@
         <div class="team__grid">
 
             <div class="member">
-                <img class="member__image" src="images/member_1.jpg" alt="Member 1">
+                <picture class="member__image">
+                    <source srcset="images/member_1.avif" type="image/avif">
+                    <source srcset="images/member_1.webp" type="image/webp">
+                    <source srcset="images/member_1.jpg" type="image/jpeg">
+                    <img loading="lazy" decoding="async" lazyalt="imagen" class="member__image" src="images/member_1.jpg" alt="Member 1">
+                </picture>
                 <div class="member__content">
 
                     <h4 class="member__title">Brantley Smith</h4>
@@ -119,7 +124,12 @@
             </div>
 
             <div class="member">
-                <img class="member__image" src="images/member_2.jpg" alt="Member 1">
+                <picture class="member__image">
+                    <source srcset="images/member_2.avif" type="image/avif">
+                    <source srcset="images/member_2.webp" type="image/webp">
+                    <source srcset="images/member_2.jpg" type="image/jpeg">
+                    <img loading="lazy" decoding="async" lazyalt="imagen" class="member__image" src="images/member_2.jpg" alt="Member 2">
+                </picture>
                 <div class="member__content">
 
                     <h4 class="member__title">Izabella Walker</h4>
@@ -135,7 +145,12 @@
             </div>
 
             <div class="member">
-                <img class="member__image" src="images/member_3.jpg" alt="Member 1">
+                <picture class="member__image">
+                    <source srcset="images/member_3.avif" type="image/avif">
+                    <source srcset="images/member_3.webp" type="image/webp">
+                    <source srcset="images/member_3.jpg" type="image/jpeg">
+                    <img loading="lazy" decoding="async" lazyalt="imagen" class="member__image" src="images/member_3.jpg" alt="Member 3">
+                </picture>
                 <div class="member__content">
 
                     <h4 class="member__title">Sara Evans</h4>
@@ -151,7 +166,12 @@
             </div>
 
             <div class="member">
-                <img class="member__image" src="images/member_4.jpg" alt="Member 1">
+                <picture class="member__image">
+                    <source srcset="images/member_4.avif" type="image/avif">
+                    <source srcset="images/member_4.webp" type="image/webp">
+                    <source srcset="images/member_4.jpg" type="image/jpeg">
+                    <img loading="lazy" decoding="async" lazyalt="imagen" class="member__image" src="images/member_4.jpg" alt="Member 4">
+                </picture>
                 <div class="member__content">
 
                     <h4 class="member__title">Ari Berry</h4>
@@ -219,6 +239,6 @@
         </div>
         <p class="footer__text">SoftApp | Todos los derechos reservados. &copy;</p>
     </footer>
-
+    <script src="js/images.js"></script>
 </body>
 </html>
