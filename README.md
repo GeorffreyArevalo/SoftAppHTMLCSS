@@ -4,8 +4,10 @@
 
 Página de presentación (Landing Page) con diseño ***responsivo*** en la que se simula los servicios que ofrece una empresa de desarrollo de software, realizada con ***HTML5*** y ***CSS3***, en donde se siguen las mejores prácticas y recomendaciones de la ***semantica*** (main, section, header) de HTML, además se utiliza nuevos atributos grid y flex de css, por otra parte se hace uso del ***posicionamiento*** (absolute y relative), también se utilizan ***pseoduselectores*** como after y hover y por ultimo se utilizan ***variables*** para tener fija la paleta de colores.
 
-<img src="https://res.cloudinary.com/dxn0tqsnw/image/upload/v1704484669/brief/project_c9da68a8-3b77-480e-a12b-bf83fd1d6e41.gif" />
+<img src="https://res.cloudinary.com/dxn0tqsnw/image/upload/v1704484669/brief/project_c9da68a8-3b77-480e-a12b-bf83fd1d6e41.gif" width="600px" />
 
+## Demostración
+<a href="https://glittery-kelpie-5df7b8.netlify.app/">SoftApp (Landing Page)</a>
 
 ## Indicaciones: 
 
